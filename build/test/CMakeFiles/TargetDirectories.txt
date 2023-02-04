@@ -1,0 +1,3 @@
+/home/nguyen/build/test/CMakeFiles/rebuild_cache.dir
+/home/nguyen/build/test/CMakeFiles/edit_cache.dir
+/home/nguyen/build/test/CMakeFiles/DisplayImage.dir
