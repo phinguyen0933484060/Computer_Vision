@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/nguyen/build/test/build",
-  "command": "/usr/bin/g++   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o -c /home/nguyen/build/test/DisplayImage.cpp",
-  "file": "/home/nguyen/build/test/DisplayImage.cpp"
-}
-]
