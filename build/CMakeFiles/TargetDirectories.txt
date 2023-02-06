@@ -1,0 +1,3 @@
+/home/nguyen/Computer_Vision/build/CMakeFiles/rebuild_cache.dir
+/home/nguyen/Computer_Vision/build/CMakeFiles/edit_cache.dir
+/home/nguyen/Computer_Vision/build/CMakeFiles/DisplayImage.dir

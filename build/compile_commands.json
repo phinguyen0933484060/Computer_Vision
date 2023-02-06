@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nguyen/Computer_Vision/build",
+  "command": "/usr/bin/g++   -isystem /usr/local/include/opencv4   -std=c++14 -O3 -DNDEBUG   -o CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o -c /home/nguyen/Computer_Vision/DisplayImage.cpp",
+  "file": "/home/nguyen/Computer_Vision/DisplayImage.cpp"
+}
+]
