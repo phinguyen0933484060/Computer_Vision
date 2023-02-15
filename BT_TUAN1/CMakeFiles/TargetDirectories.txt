@@ -1,4 +1,5 @@
 /home/nguyen/Computer_Vision/BT_TUAN1/CMakeFiles/rebuild_cache.dir
 /home/nguyen/Computer_Vision/BT_TUAN1/CMakeFiles/edit_cache.dir
+/home/nguyen/Computer_Vision/BT_TUAN1/CMakeFiles/BT1_2.dir
 /home/nguyen/Computer_Vision/BT_TUAN1/CMakeFiles/BT1.dir
 /home/nguyen/Computer_Vision/BT_TUAN1/CMakeFiles/BT4.dir

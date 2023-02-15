@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named BT1_2
+
+# Build rule for target.
+BT1_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BT1_2
+.PHONY : BT1_2
+
+# fast build rule for target.
+BT1_2/fast:
+	$(MAKE) -f CMakeFiles/BT1_2.dir/build.make CMakeFiles/BT1_2.dir/build
+.PHONY : BT1_2/fast
+
+#=============================================================================
 # Target rules for targets named BT1
 
 # Build rule for target.
@@ -163,6 +176,33 @@ BT1.cpp.s:
 	$(MAKE) -f CMakeFiles/BT1.dir/build.make CMakeFiles/BT1.dir/BT1.cpp.s
 .PHONY : BT1.cpp.s
 
+BT1_2.o: BT1_2.cpp.o
+
+.PHONY : BT1_2.o
+
+# target to build an object file
+BT1_2.cpp.o:
+	$(MAKE) -f CMakeFiles/BT1_2.dir/build.make CMakeFiles/BT1_2.dir/BT1_2.cpp.o
+.PHONY : BT1_2.cpp.o
+
+BT1_2.i: BT1_2.cpp.i
+
+.PHONY : BT1_2.i
+
+# target to preprocess a source file
+BT1_2.cpp.i:
+	$(MAKE) -f CMakeFiles/BT1_2.dir/build.make CMakeFiles/BT1_2.dir/BT1_2.cpp.i
+.PHONY : BT1_2.cpp.i
+
+BT1_2.s: BT1_2.cpp.s
+
+.PHONY : BT1_2.s
+
+# target to generate assembly for a file
+BT1_2.cpp.s:
+	$(MAKE) -f CMakeFiles/BT1_2.dir/build.make CMakeFiles/BT1_2.dir/BT1_2.cpp.s
+.PHONY : BT1_2.cpp.s
+
 BT4.o: BT4.cpp.o
 
 .PHONY : BT4.o
@@ -198,11 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... BT1_2"
 	@echo "... BT1"
 	@echo "... BT4"
 	@echo "... BT1.o"
 	@echo "... BT1.i"
 	@echo "... BT1.s"
+	@echo "... BT1_2.o"
+	@echo "... BT1_2.i"
+	@echo "... BT1_2.s"
 	@echo "... BT4.o"
 	@echo "... BT4.i"
 	@echo "... BT4.s"

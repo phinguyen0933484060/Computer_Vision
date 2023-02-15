@@ -6,6 +6,8 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable( BT4 BT4.cpp)
 add_executable( BT1 BT1.cpp)
+add_executable( BT1_2 BT1_2.cpp)
 target_link_libraries( BT4 ${OpenCV_LIBS} )
 target_link_libraries( BT1 ${OpenCV_LIBS} )
+target_link_libraries( BT1_2 ${OpenCV_LIBS} )
 
